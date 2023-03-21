@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <title>Hello World!</title> -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body>
+    <div class="centered text-center">
+      <img src="assets/img/ee843d49f3ab299556e41fa72aeb57f1.png" class="logo" />
+      <br />
+      <br />
+      <div id="status-text">Starting...</div>
+      <br />
+      <br />
+      <span class="copy">
+        made with <span class="heart">♥</span> by
+        <span onclick="openInstagram()" class="name">Ale</span></span
+      >
+    </div>
+    <script>
+      const { ipcRenderer, shell } = require('electron');
+      const statusTextHtml = document.getElementById('status-text');
+
+      ipcRenderer.on('statusText', (event, statusText) => {
+        statusTextHtml.innerHTML = statusText;
+      });
+
+      setInterval(() => {
+        ipcRenderer.send('getStatusText');
+      }, 1000);
+
+      function openInstagram() {
+        shell.openExternal('https://www.instagram.com/alexandrebeato/');
+      }
+    </script>
+  </body>
+</html>

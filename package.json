@@ -1,0 +1,27 @@
+{
+  "name": "idleflix",
+  "version": "1.0.0",
+  "description": "Idleflix is a electron.js application that prevents your computer from going idle or entering sleep mode, by simulating user activity.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrebeato/idleflix.git"
+  },
+  "author": "Alexandre Beato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandrebeato/idleflix/issues"
+  },
+  "homepage": "https://github.com/alexandrebeato/idleflix#readme",
+  "devDependencies": {
+    "electron": "^23.1.4"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.1.1",
+    "rxjs": "^7.8.0"
+  }
+}
