@@ -15,6 +15,11 @@ function createWindow(path) {
     },
   });
 
+  win.on('minimize', function (event) {
+    event.preventDefault();
+    win.hide();
+  });
+
   win.setMenuBarVisibility(false);
   win.loadFile(path);
   return win;

@@ -18,10 +18,52 @@
   },
   "homepage": "https://github.com/alexandrebeato/idleflix#readme",
   "devDependencies": {
-    "electron": "^23.1.4"
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0"
   },
   "dependencies": {
     "@nut-tree/nut-js": "^3.1.1",
     "rxjs": "^7.8.0"
+  },
+  "build": {
+    "appId": "com.alexandrebeato.idleflix",
+    "productName": "IdleFlix",
+    "copyright": "Copyright © 2023 Alexandre Beato",
+    "mac": {
+      "target": [
+        "zip"
+      ],
+      "publish": [
+        "github"
+      ]
+    },
+    "win": {
+      "publisherName": "Alexandre Beato",
+      "publish": [
+        "github"
+      ],
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "tar.gz"
+      ]
+    },
+    "dmg": {
+      "icon": "build/icon.icns"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "alexandrebeato",
+        "repo": "idleflix",
+        "vPrefixedTagName": true,
+        "private": true,
+        "releaseType": "draft"
+      }
+    ]
   }
 }
