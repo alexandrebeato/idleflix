@@ -3,7 +3,7 @@ const { mouse, left, right, up, down } = require('@nut-tree/nut-js');
 var timeBetweenChecksInSeconds = 1;
 var lastCheckedMousePosition = { x: 0, y: 0 };
 var isComputerIdle = false;
-var timeForSetIdleStatusInMinutes = 0.5;
+var timeForSetIdleStatusInMinutes = 5;
 var mouseIdleTimeInSeconds = 0;
 var statusText = 'Started';
 

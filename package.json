@@ -39,6 +39,7 @@
     },
     "win": {
       "publisherName": "Alexandre Beato",
+      "icon": "assets/img/icon.ico",
       "publish": [
         "github"
       ],
