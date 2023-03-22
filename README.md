@@ -8,7 +8,7 @@ IdleFlix is a simple application that prevents your computer from going into idl
 
 You can download for Windows, Linux, and macOS from the links below:
 
-- [Windows](dist/anti-idle-win.exe)
+- [Windows](https://github.com/alexandrebeato/idleflix/releases/download/v1.0.0/IdleFlix.exe)
 - Linux (to be tested)
 - MacOS (to be tested)
 
@@ -22,6 +22,6 @@ You can manually build the application using electron-builder. You will need to 
 
 If you find a bug or have a feature request, please open an issue on GitHub. Pull requests are also welcome!
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
