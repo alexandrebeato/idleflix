@@ -12,4 +12,3 @@ electron.ipcMain.on('getStatusText', (event) => {
   event.reply('statusText', antiIdle.getStatusText());
 });
 
-setInterval(() => {}, 1000);

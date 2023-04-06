@@ -19,7 +19,7 @@
   "homepage": "https://github.com/alexandrebeato/idleflix#readme",
   "devDependencies": {
     "electron": "^23.1.4",
-    "electron-builder": "^23.6.0"
+    "electron-builder": "^24.1.3"
   },
   "dependencies": {
     "@nut-tree/nut-js": "^3.1.1",

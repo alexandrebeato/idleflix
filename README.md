@@ -4,6 +4,10 @@
 
 IdleFlix is a simple application that prevents your computer from going into idle mode. It does this by simulating user activity at regular intervals, such as pressing a key or moving the mouse. If the computer is left idle for 5 minutes, the mouse automatically moves every second until you have some interaction with the computer again.
 
+<p align="center">
+  <img src="assets/img/screen.gif" /> 
+</p>
+
 ## Download
 
 You can download for Windows, Linux, and macOS from the links below:
