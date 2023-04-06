@@ -26,6 +26,11 @@ You can download for Windows, Linux, and macOS from the links below:
 | 📝 | Open in system startup | Backlog |  v1.0.3 |
 | 📝 | Keyboard typing check | Backlog |  v1.1.0 |
 
+## Getting started
+
+You can run the application using the following commands:
+
+```npm install && npm start```
 
 ## Manual build
 
