@@ -16,6 +16,17 @@ You can download for Windows, Linux, and macOS from the links below:
 - Linux (to be tested)
 - MacOS (to be tested)
 
+## Next features
+
+| Status | Description | Progress | Version |
+| :---: | :--- | :---: | :---: |
+| 🚀 | Mouse movement check | Released | [v1.0.0](https://github.com/alexandrebeato/idleflix/releases/tag/v1.0.0) |
+| 🛠️ | User custom settings | In progress |  v1.0.1 |
+| 📝 | System tray icon | Backlog |  v1.0.2 |
+| 📝 | Open in system startup | Backlog |  v1.0.3 |
+| 📝 | Keyboard typing check | Backlog |  v1.1.0 |
+
+
 ## Manual build
 
 You can manually build the application using electron-builder. You will need to have Node.js installed.
